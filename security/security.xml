@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+  
+    <!-- Administrador proyectoadrianarmas -->
+    <record id="administrador" model="res.groups">
+      <field name="name">proyectoadrianarmas/Administrador</field>
+      <field name="comment">Perfil administrador a los proyectos</field>
+    </record>
+
+    <!-- Jefe_de_proyectos proyectoadrianarmas -->
+    <record id="jefe_de_proyectos" model="res.groups">
+      <field name="name">proyectoadrianarmas/Jefe de proyectos</field>
+      <field name="comment">Perfil Jefe de proyectos de los proyectos</field>
+    </record>
+
+    <!-- Analista proyectoadrianarmas -->
+    <record id="analista" model="res.groups">
+      <field name="name">proyectoadrianarmas/Analista</field>
+      <field name="comment">Perfil Analista de los proyectos</field>
+    </record>
+
+    <!-- Programador proyectoadrianarmas -->
+    <record id="programador" model="res.groups">
+      <field name="name">proyectoadrianarmas/Programador</field>
+      <field name="comment">Perfil Programador de los proyectos</field>
+    </record>
+
+  </data>
+</odoo>
